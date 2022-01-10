@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DF965F14278831B80035F735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F13278831B80035F735 /* AppDelegate.swift */; };
 		DF965F16278831B80035F735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F15278831B80035F735 /* SceneDelegate.swift */; };
-		DF965F18278831B80035F735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F17278831B80035F735 /* ViewController.swift */; };
-		DF965F1B278831B80035F735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF965F19278831B80035F735 /* Main.storyboard */; };
+		DF965F18278831B80035F735 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F17278831B80035F735 /* LoginController.swift */; };
 		DF965F1D278831BF0035F735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF965F1C278831BF0035F735 /* Assets.xcassets */; };
 		DF965F20278831BF0035F735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF965F1E278831BF0035F735 /* LaunchScreen.storyboard */; };
+		DF965F2C2788C2500035F735 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F2B2788C2500035F735 /* UIExtensions.swift */; };
+		DF965F31278A16450035F735 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F30278A16450035F735 /* Person.swift */; };
+		DF965F34278A16ED0035F735 /* CheckInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F33278A16ED0035F735 /* CheckInfo.swift */; };
+		DF965F37278A1D950035F735 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965F36278A1D950035F735 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF965F10278831B80035F735 /* TSDProject4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSDProject4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF965F13278831B80035F735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF965F15278831B80035F735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF965F17278831B80035F735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF965F1A278831B80035F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF965F17278831B80035F735 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		DF965F1C278831BF0035F735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF965F1F278831BF0035F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF965F21278831BF0035F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF965F2B2788C2500035F735 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		DF965F30278A16450035F735 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DF965F33278A16ED0035F735 /* CheckInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInfo.swift; sourceTree = "<group>"; };
+		DF965F36278A1D950035F735 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				DF965F13278831B80035F735 /* AppDelegate.swift */,
 				DF965F15278831B80035F735 /* SceneDelegate.swift */,
-				DF965F17278831B80035F735 /* ViewController.swift */,
-				DF965F19278831B80035F735 /* Main.storyboard */,
+				DF965F17278831B80035F735 /* LoginController.swift */,
+				DF965F36278A1D950035F735 /* OrderViewController.swift */,
+				DF965F30278A16450035F735 /* Person.swift */,
+				DF965F33278A16ED0035F735 /* CheckInfo.swift */,
+				DF965F2B2788C2500035F735 /* UIExtensions.swift */,
 				DF965F1C278831BF0035F735 /* Assets.xcassets */,
 				DF965F1E278831BF0035F735 /* LaunchScreen.storyboard */,
 				DF965F21278831BF0035F735 /* Info.plist */,
@@ -126,7 +135,6 @@
 			files = (
 				DF965F20278831BF0035F735 /* LaunchScreen.storyboard in Resources */,
 				DF965F1D278831BF0035F735 /* Assets.xcassets in Resources */,
-				DF965F1B278831B80035F735 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +145,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF965F18278831B80035F735 /* ViewController.swift in Sources */,
+				DF965F31278A16450035F735 /* Person.swift in Sources */,
+				DF965F18278831B80035F735 /* LoginController.swift in Sources */,
+				DF965F34278A16ED0035F735 /* CheckInfo.swift in Sources */,
 				DF965F14278831B80035F735 /* AppDelegate.swift in Sources */,
+				DF965F37278A1D950035F735 /* OrderViewController.swift in Sources */,
 				DF965F16278831B80035F735 /* SceneDelegate.swift in Sources */,
+				DF965F2C2788C2500035F735 /* UIExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF965F19278831B80035F735 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF965F1A278831B80035F735 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF965F1E278831BF0035F735 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
