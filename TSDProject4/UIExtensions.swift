@@ -11,7 +11,7 @@ extension UITextField {
     
     func setUnderLine() {
         let border = CALayer()
-        let width = CGFloat(0.5)
+        let width = CGFloat(1.0)
         border.borderColor = UIColor.darkGray.cgColor
         border.frame = CGRect(x: 0, y: self.frame.size.height - width, width:  self.frame.size.width - 10, height: self.frame.size.height)
         border.borderWidth = width
